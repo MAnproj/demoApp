@@ -21,7 +21,7 @@ class ViewController: UIViewController {
         getTopStories()
     }
 func getTopStories() {
-    let jsonUrlString = "https://api.nytimes.com/svc/mostpopular/v2/viewed/1.json?api-key=MpDL3laahs8WOOxVmu7Rj3NeZbZHV8FG#"
+    let jsonUrlString = "https://api.nytimes.com/svc/mostpopular/v2/viewed/1.json?api-key=#"
     guard let url = URL(string: jsonUrlString) else {return}
 
     URLSession.shared.dataTask(with: url) { (data, response, err) in
