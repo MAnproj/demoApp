@@ -4,3 +4,4 @@
 4. Add the key in let jsonUrlString = "https://api.nytimes.com/svc/mostpopular/v2/viewed/1.json?api-key= HERE
 5. Run demoApp.xcodeproj
 
+Note: XcTest and Xcuitest Pending
